@@ -1,0 +1,1152 @@
+[ 2016-02-20T21:23:00+08:00 ] 127.0.0.1 /php34/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.016765s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455974579 ) AND ( `promote_end_time` >= 1455974579 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.027739s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.010724s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000619s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.013636s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000740s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.193666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002217s ]
+
+[ 2016-02-20T21:23:02+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003974s ]
+
+[ 2016-02-20T21:23:03+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
+[ 2016-02-20T21:23:13+08:00 ] 127.0.0.1 /php34/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-02-20T21:23:13+08:00 ] 127.0.0.1 /php34/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013624s ]
+
+[ 2016-02-20T21:23:14+08:00 ] 127.0.0.1 /php34/index.php/Admin/Login/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003640s ]
+
+[ 2016-02-20T21:23:40+08:00 ] 127.0.0.1 /php34/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `php34_admin` [ RunTime:0.030165s ]
+SQL: SELECT * FROM `php34_admin` WHERE ( `username` = 'root' ) LIMIT 1   [ RunTime:0.001372s ]
+
+[ 2016-02-20T21:23:41+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002791s ]
+
+[ 2016-02-20T21:23:41+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2016-02-20T21:23:41+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004572s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/footer.html): failed to open stream: No such file or directory D:\one\php34\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003735s ]
+
+[ 2016-02-20T21:23:41+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+SQL: SELECT * FROM php34_privilege [ RunTime:0.015851s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003983s ]
+
+[ 2016-02-20T21:26:16+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2016-02-20T21:26:16+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003830s ]
+
+[ 2016-02-20T21:26:16+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004062s ]
+SQL: SELECT * FROM php34_privilege [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002895s ]
+
+[ 2016-02-20T21:26:16+08:00 ] 127.0.0.1 /php34/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002551s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/footer.html): failed to open stream: No such file or directory D:\one\php34\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2016-02-20T21:26:27+08:00 ] 127.0.0.1 /php34/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.024573s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455974787 ) AND ( `promote_end_time` >= 1455974787 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001462s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000811s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000912s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000767s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.025457s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003915s ]
+
+[ 2016-02-20T21:26:27+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004578s ]
+
+[ 2016-02-20T21:26:28+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003547s ]
+
+[ 2016-02-20T21:26:32+08:00 ] 127.0.0.1 /php34/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.028655s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455974792 ) AND ( `promote_end_time` >= 1455974792 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001120s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000735s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000630s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000471s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.018624s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003706s ]
+
+[ 2016-02-20T21:26:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004104s ]
+
+[ 2016-02-20T21:26:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2016-02-20T21:26:37+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2016-02-20T21:26:38+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003914s ]
+
+[ 2016-02-20T21:26:38+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009790s ]
+
+[ 2016-02-20T21:29:51+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003224s ]
+
+[ 2016-02-20T21:29:52+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004341s ]
+
+[ 2016-02-20T21:29:52+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004163s ]
+
+[ 2016-02-20T21:30:22+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003393s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.023811s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975022 ) AND ( `promote_end_time` >= 1455975022 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001046s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000570s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000500s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000486s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.024460s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000726s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002840s ]
+
+[ 2016-02-20T21:30:22+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004031s ]
+
+[ 2016-02-20T21:30:22+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003622s ]
+
+[ 2016-02-20T21:30:48+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.028088s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975048 ) AND ( `promote_end_time` >= 1455975048 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001562s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000811s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000741s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.022138s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003875s ]
+
+[ 2016-02-20T21:30:48+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2016-02-20T21:30:49+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004427s ]
+
+[ 2016-02-20T21:30:52+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.049924s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975052 ) AND ( `promote_end_time` >= 1455975052 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001531s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001053s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000664s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.028011s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000982s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003565s ]
+
+[ 2016-02-20T21:30:53+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005311s ]
+
+[ 2016-02-20T21:30:53+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004557s ]
+
+[ 2016-02-20T21:30:56+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.025869s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975055 ) AND ( `promote_end_time` >= 1455975055 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001466s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000807s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000716s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.023833s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000706s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002923s ]
+
+[ 2016-02-20T21:30:56+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004595s ]
+
+[ 2016-02-20T21:30:56+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003850s ]
+
+[ 2016-02-20T21:31:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003873s ]
+
+[ 2016-02-20T21:31:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004760s ]
+
+[ 2016-02-20T21:31:33+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002942s ]
+
+[ 2016-02-20T21:31:34+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003328s ]
+
+[ 2016-02-20T21:31:34+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003394s ]
+
+[ 2016-02-20T21:31:35+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004312s ]
+
+[ 2016-02-20T21:31:44+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001725s ]
+
+[ 2016-02-20T21:31:44+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/chkcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-02-20T21:31:44+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2016-02-20T21:32:10+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.026001s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975130 ) AND ( `promote_end_time` >= 1455975130 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.002269s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000777s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000664s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000597s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.021682s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2016-02-20T21:32:10+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004062s ]
+
+[ 2016-02-20T21:32:10+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005187s ]
+
+[ 2016-02-20T21:32:17+08:00 ] 127.0.0.1 /php34/index.php/Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003575s ]
+NOTIC: [2048] Declaration of Home\Controller\CartController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\one\php34\Application\Home\Controller\CartController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `php34_cart` [ RunTime:0.026129s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.026336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003533s ]
+
+[ 2016-02-20T21:32:17+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004240s ]
+
+[ 2016-02-20T21:32:20+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002819s ]
+
+[ 2016-02-20T21:32:20+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006440s ]
+
+[ 2016-02-20T21:32:24+08:00 ] 127.0.0.1 /php34/index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.021195s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1455975144 ) AND ( `promote_end_time` >= 1455975144 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001289s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000761s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001035s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.018047s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000715s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2016-02-20T21:32:25+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004897s ]
+
+[ 2016-02-20T21:32:25+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003776s ]
+
+[ 2016-02-20T21:32:31+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/goods/id/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.021687s ]
+SQL: SELECT * FROM `php34_goods` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `php34_goods_pics` [ RunTime:0.022378s ]
+SQL: SELECT * FROM `php34_goods_pics` WHERE ( `goods_id` = '22' )  [ RunTime:0.018744s ]
+SQL: SHOW COLUMNS FROM `php34_goods_attr` [ RunTime:0.024735s ]
+SQL: SELECT a.*,b.attr_name FROM php34_goods_attr a LEFT JOIN php34_attribute b ON a.attr_id=b.id  WHERE ( a.goods_id = '22' ) AND ( b.attr_type = 1 )  [ RunTime:0.025983s ]
+SQL: SELECT a.*,b.attr_name FROM php34_goods_attr a LEFT JOIN php34_attribute b ON a.attr_id=b.id  WHERE ( a.goods_id = '22' ) AND ( b.attr_type = 0 )  [ RunTime:0.001410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.018519s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 155 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 150 行.
+NOTIC: [8] Undefined index: children D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 150 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 364 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\one\php34\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 445 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002755s ]
+
+[ 2016-02-20T21:32:31+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002361s ]
+
+[ 2016-02-20T21:32:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetPrice/goods_id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002381s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.016580s ]
+SQL: SELECT `shop_price`,`is_promote`,`promote_price`,`promote_start_time`,`promote_end_time` FROM `php34_goods` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2016-02-20T21:32:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Index/ajaxGetComment/goods_id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002864s ]
+
+[ 2016-02-20T21:32:32+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002891s ]
+
+[ 2016-02-20T21:32:40+08:00 ] 127.0.0.1 /php34/index.php/Home/Comment/ajaxGetComment/p/1/goods_id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+SQL: SHOW COLUMNS FROM `php34_comment` [ RunTime:0.034391s ]
+SQL: SELECT a.*,b.email,b.face,COUNT(c.id) reply_count FROM php34_comment a LEFT JOIN php34_member b ON a.member_id=b.id LEFT JOIN php34_reply c ON a.id=c.comment_id  WHERE ( a.goods_id = '22' ) GROUP BY a.id ORDER BY a.id DESC LIMIT 0,5   [ RunTime:0.025668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002955s ]
+
+[ 2016-02-20T21:32:41+08:00 ] 127.0.0.1 /php34/index.php/Home/Cart/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+NOTIC: [2048] Declaration of Home\Controller\CartController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\one\php34\Application\Home\Controller\CartController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `php34_cart` [ RunTime:0.018465s ]
+
+[ 2016-02-20T21:32:41+08:00 ] 127.0.0.1 /php34/index.php/Home/Cart/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+NOTIC: [2048] Declaration of Home\Controller\CartController::success() should be compatible with Think\Controller::success($message = '', $jumpUrl = '', $ajax = false) D:\one\php34\Application\Home\Controller\CartController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `php34_cart` [ RunTime:0.022280s ]
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.023706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001802s ]
+
+[ 2016-02-20T21:32:42+08:00 ] 127.0.0.1 /php34/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+

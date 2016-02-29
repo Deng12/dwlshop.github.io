@@ -1,0 +1,53 @@
+[ 2016-02-21T18:10:08+08:00 ] 127.0.0.1 /php34/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.012754s ]
+INFO: [ app_init ] --END-- [ RunTime:0.104152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014872s ]
+NOTIC: [2] mysql_connect():  D:\one\php34\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-02-21T18:10:20+08:00 ] 127.0.0.1 /php34/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003507s ]
+NOTIC: [2] mysql_connect():  D:\one\php34\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-02-21T18:10:40+08:00 ] 127.0.0.1 /php34/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+NOTIC: [2] mysql_connect():  D:\one\php34\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-02-21T18:10:52+08:00 ] 127.0.0.1 /php34/index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+NOTIC: [2] mysql_connect():  D:\one\php34\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 52 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-02-21T18:11:13+08:00 ] 127.0.0.1 /php34/index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002891s ]
+ERR: ÈùûÊ≥ïÊìç‰Ωú:index
+
